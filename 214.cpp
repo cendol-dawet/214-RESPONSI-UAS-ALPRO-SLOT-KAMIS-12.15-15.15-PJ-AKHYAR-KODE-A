@@ -59,7 +59,6 @@ class Perpus{
         ofstream in;
         in.open("hasil_cari_judul.txt", ios::app);
         in << "-------------------------------------------" << endl;
-        in << "Mencari Data buku berdasarkan judulnya" << endl;
         bool ada = false ;
         cout << "\nMencari Data buku berdasarkan judulnya" << endl;
         cout <<"Masukkan nama judul buku: ";
